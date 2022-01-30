@@ -24,6 +24,6 @@ rotate 2 steps to the right: [3,99,-1,-100]
 ### Constraints:
 ```
 1 <= nums.length <= 10^5
--231 <= nums[i] <= 23^1 - 1
+-23^1 <= nums[i] <= 23^1 - 1
 0 <= k <= 10^5
 ```
