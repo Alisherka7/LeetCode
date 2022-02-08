@@ -24,3 +24,12 @@ Output: 0
 ```
     0 <= num <= 23^1 - 1
 ```
+
+# Solution
+```java
+class Solution {
+    public int addDigits(int num) {
+        return num == 0 ? 0 : 1 + (num - 1) % 9;
+    }
+}
+```
