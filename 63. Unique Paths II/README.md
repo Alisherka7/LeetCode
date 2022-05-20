@@ -10,6 +10,7 @@ The testcases are generated so that the answer will be less than or equal to 2 *
 
 
 <img width="264" alt="Screen Shot 2022-05-21 at 8 22 59" src="https://user-images.githubusercontent.com/38793933/169624019-dec3a187-db76-4bbe-b00e-e2d84a89d187.png">
+
 ```
 Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
 Output: 2
@@ -18,14 +19,17 @@ There are two ways to reach the bottom-right corner:
 1. Right -> Right -> Down -> Down
 2. Down -> Down -> Right -> Right
 ```
+
 ### Example 2:
 <img width="172" alt="Screen Shot 2022-05-21 at 8 23 21" src="https://user-images.githubusercontent.com/38793933/169624042-2d3753fa-b2be-47b1-894a-c4dd1119a2d5.png">
+
 ```
 Input: obstacleGrid = [[0,1],[0,0]]
 Output: 1
 ```
 
 ### Constraints:
+
 ```
 m == obstacleGrid.length
 n == obstacleGrid[i].length
