@@ -1,3 +1,5 @@
+# 9, Palindrome Number
+
 Given an integer x, return true if x is palindrome integer.
 An integer is a palindrome when it reads the same backward as forward.
 
@@ -28,7 +30,7 @@ Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ```
 
-Constraints:
+### Constraints:
 
 ```
 -231 <= x <= 231 - 1
