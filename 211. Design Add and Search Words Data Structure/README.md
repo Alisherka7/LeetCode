@@ -9,7 +9,7 @@ Implement the WordDictionary class:
 - bool search(word) Returns true if there is any string in the data structure that matches word or false otherwise. word may contain dots '.' where dots can be matched with any letter.
  
 
-### Example:
+### Example1:
 ```
 Input
 ["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
@@ -17,7 +17,7 @@ Input
 Output
 [null,null,null,null,false,true,true,true]
 ```
-### Explanation
+### Explanation1
 ```
 WordDictionary wordDictionary = new WordDictionary();
 wordDictionary.addWord("bad");
@@ -29,7 +29,7 @@ wordDictionary.search(".ad"); // return True
 wordDictionary.search("b.."); // return True
 ```
 
-### Constraints:
+### Constraints 1:
 ```
 1 <= word.length <= 500
 word in addWord consists lower-case English letters.
