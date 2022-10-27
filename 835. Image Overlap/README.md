@@ -17,10 +17,14 @@ Return the largest possible overlap.
 Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
 Output: 3
 Explanation: We translate img1 to right by 1 unit and down by 1 unit.
+```
+
 <img width="472" alt="Screen Shot 2022-10-27 at 12 02 30" src="https://user-images.githubusercontent.com/38793933/198181028-d8db4435-976d-4fb4-9536-dec94cf14e80.png">
 
+```
 The number of positions that have a 1 in both images is 3 (shown in red).
 ```
+
 <img width="494" alt="Screen Shot 2022-10-27 at 12 02 41" src="https://user-images.githubusercontent.com/38793933/198181051-c4af654b-7746-4a21-964d-dcfcd49fa937.png">
 
 ### Example 2:
