@@ -9,6 +9,7 @@ int getRandom() Chooses a node randomly from the list and returns its value. All
  
 
 ### Example 1:
+<img width="319" alt="Screen Shot 2023-03-11 at 16 18 12" src="https://user-images.githubusercontent.com/38793933/224470966-e3363203-0acc-4bfb-8156-190c7143a0e4.png">
 
 
 ### Input
