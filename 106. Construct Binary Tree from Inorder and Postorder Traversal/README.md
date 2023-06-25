@@ -4,11 +4,13 @@ Given two integer arrays inorder and postorder where inorder is the inorder trav
  
 
 ### Example 1:
+
 <img width="299" alt="Screen Shot 2023-03-16 at 13 26 46" src="https://user-images.githubusercontent.com/38793933/225514384-7bba5754-f118-4f07-b506-624ee25ecc33.png">
 
 ```
 Input: inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
 Output: [3,9,20,null,null,15,7]
+
 ```
 ### Example 2:
 ```
