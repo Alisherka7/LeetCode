@@ -10,7 +10,6 @@ The test cases are generated so that the answer fits in a 32-bits integer.
  
 
 #### Example 1:
-
 ```
 Input: root = [1,0,1,0,1,0,1]
 Output: 22
@@ -21,7 +20,6 @@ Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
 Input: root = [0]
 Output: 0
 ```
-
 #### Constraints:
 ```
 The number of nodes in the tree is in the range [1, 1000].
