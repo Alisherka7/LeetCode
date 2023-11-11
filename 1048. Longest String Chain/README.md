@@ -9,8 +9,6 @@ A word chain is a sequence of words `[word1, word2, ..., wordk]` with `k >= 1`, 
 
 Return the length of the longest possible word chain with words chosen from the given list of words.
 
- 
-
 ### Example 1:
 ```
 Input: words = ["a","b","ba","bca","bda","bdca"]
