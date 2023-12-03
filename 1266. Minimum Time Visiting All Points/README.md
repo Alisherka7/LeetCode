@@ -4,7 +4,7 @@ On a 2D plane, there are n points with integer coordinates points[i] = [xi, yi].
 
 You can move according to these rules:
 
-In 1 second, you can either:
+### In 1 second, you can either:
 - move vertically by one unit,
 - move horizontally by one unit, or
 - move diagonally sqrt(2) units (in other words, move one unit vertically then one unit horizontally in 1 second).
