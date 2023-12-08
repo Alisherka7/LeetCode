@@ -4,8 +4,6 @@ Given the root of a binary tree, construct a string consisting of parenthesis an
 
 Omit all the empty parenthesis pairs that do not affect the one-to-one mapping relationship between the string and the original binary tree.
 
- 
-
 ### Example 1:
 <img width="320" alt="Screen Shot 2022-09-07 at 15 12 50" src="https://user-images.githubusercontent.com/38793933/188802128-1801e32c-e702-4848-879a-e911c17877b1.png">
 
