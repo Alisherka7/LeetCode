@@ -3,10 +3,7 @@
 Alice has n balloons arranged on a rope. You are given a 0-indexed string colors where colors[i] is the color of the ith balloon.
 
 Alice wants the rope to be colorful. She does not want two consecutive balloons to be of the same color, so she asks Bob for help. Bob can remove some balloons from the rope to make it colorful. You are given a 0-indexed integer array neededTime where neededTime[i] is the time (in seconds) that Bob needs to remove the ith balloon from the rope.
-
 Return the minimum time Bob needs to make the rope colorful.
-
- 
 
 ### Example 1:
 <img width="403" alt="Screen Shot 2022-10-04 at 0 05 06" src="https://user-images.githubusercontent.com/38793933/193611068-55011ad2-eb8e-42ce-bfd9-34dd74c3d05a.png">
