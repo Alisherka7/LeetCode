@@ -33,7 +33,8 @@ randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom()
  
 
 Constraints:
-
--231 <= val <= 231 - 1
+```
+-2^31 <= val <= 2^31 - 1
 At most 2 * 105 calls will be made to insert, remove, and getRandom.
 There will be at least one element in the data structure when getRandom is called.
+```
