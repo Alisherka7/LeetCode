@@ -1,0 +1,30 @@
+# 576. Out of Boundary Paths
+
+There is an m x n grid with a ball. The ball is initially at the position `[startRow, startColumn]`. You are allowed to move the ball to one of the four adjacent cells in the grid `(possibly out of the grid crossing the grid boundary)`. You can apply at most maxMove moves to the ball.
+
+Given the five integers m, n, maxMove, startRow, startColumn, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it modulo 109 + 7.
+
+ 
+
+### Example 1:
+![image](https://github.com/Alisherka7/LeetCode/assets/38793933/f1fd1807-c215-438d-87a5-63f99050b9cd)
+
+```
+Input: m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
+Output: 6
+```
+### Example 2:
+![image](https://github.com/Alisherka7/LeetCode/assets/38793933/88ba6fc0-8134-462f-9767-0491d46b1328)
+
+```
+Input: m = 1, n = 3, maxMove = 3, startRow = 0, startColumn = 1
+Output: 12
+```
+
+### Constraints:
+```
+1 <= m, n <= 50
+0 <= maxMove <= 50
+0 <= startRow < m
+0 <= startColumn < n
+```
