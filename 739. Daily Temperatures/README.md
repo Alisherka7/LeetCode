@@ -23,5 +23,5 @@ Output: [1,1,0]
 ### Constraints:
 ```
 1 <= temperatures.length <= 10^5
-30 <= temperatures[i] <= 10^0
+30 <= temperatures[i] <= 100
 ```
