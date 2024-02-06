@@ -1,29 +1,29 @@
 # Group Anagram
-주어진 ``` strs = ["eat","tea","tan","ate","nat","bat"] ```배열을 애너그램으로 그룹화화여 반환합니다.
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
-```java
-class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> res = new ArrayList<>();
-        if(strs.length == 0){
-            return res;
-        }
+ 
+### Example 1:
+```
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+```
+### Example 2:
+```
+Input: strs = [""]
+Output: [[""]]
+```
+### Example 3:
+```
+Input: strs = ["a"]
+Output: [["a"]]
+```
+ 
 
-        HashMap<String, List<String>> hm = new HashMap<>();
-        for(String str : strs){
-            int[] hash = new int[26];
-            // create key
-            for(char c : str.toCharArray()){
-                hash[c - 'a']++;
-            }
-            // array to string
-            String key = new String(Arrays.toString(hash));
-            hm.computeIfAbsent(key, k -> new ArrayList<>());
-            hm.get(key).add(str);
-        }
-        res.addAll(hm.values());
-        return res;
-    }
-}
+### Constraints:
+```
+1 <= strs.length <= 104
+0 <= strs[i].length <= 100
+strs[i] consists of lowercase English letters.
 ```
