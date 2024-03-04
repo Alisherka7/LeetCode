@@ -7,7 +7,8 @@ If your current power is at least tokens[i], you may play the ith token face up,
 If your current score is at least 1, you may play the ith token face down, gaining tokens[i] power and losing 1 score.
 Each token may be played at most once and in any order. You do not have to play all the tokens.
 
-Return the largest possible score you can achieve after playing any number of tokens.
+
+- Return the largest possible score you can achieve after playing any number of tokens.
 
  
 
