@@ -10,9 +10,7 @@ The evaluation of a node is as follows:
 * If the node is a leaf node, the evaluation is the value of the node, i.e. True or False.
 * Otherwise, evaluate the node's two children and apply the boolean operation of its value with the children's evaluations.
 Return the boolean result of evaluating the root node.
-
 A full binary tree is a binary tree where each node has either 0 or 2 children.
-
 A leaf node is a node that has zero children.
 
  
