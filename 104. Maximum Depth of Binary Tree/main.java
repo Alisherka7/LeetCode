@@ -13,12 +13,15 @@
  *     }
  * }
  */
+
 class Solution {
     int height;
+    
     public int maxDepth(TreeNode root) {
         dfs(root, 1);
         return height;
     }
+    
     public void dfs(TreeNode node, int depth){
         if(node == null){
             return;
