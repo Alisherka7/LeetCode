@@ -1,4 +1,4 @@
 # Leetcode
 
 
-Here I solve Leetcode algorithm and data structure problemsю
+Here I solve Leetcode algorithm and data structure problems
