@@ -1,6 +1,6 @@
 # 131. Palindrome Partitioning
 
-Given a string s, partition s such that every 
+Given a string `s`, partition `s` such that every 
 substring
  of the partition is a 
 palindrome
