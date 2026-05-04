@@ -11,7 +11,7 @@ Using the following algorithms, implement a `maximum binary tree`:
 
 ---
 
-## Intuitive Approach
+## Intuitive - Recursive Approach
 
 To solve this problem, we use a **Recursive Divide and Conquer** approach.
 
@@ -123,3 +123,7 @@ class Solution:
 - Space is used by the recursion call stack, not extra arrays.
 - Worst case: a skewed tree has depth n → **O(n)** stack frames.
 - Average case: a balanced tree has depth log n → **O(log n)** stack frames.
+
+
+# Monotonic Stack Approach - O(n)
+
