@@ -1,8 +1,9 @@
 # 1488. Avoid Flood in The City
 
-Your country has an infinite number of lakes. Initially, all the lakes are empty, but when it rains over the nth lake, the nth lake becomes full of water. If it rains over a lake that is full of water, there will be a flood. Your goal is to avoid floods in any lake.
+Your country has an infinite number of lakes. Initially, all the lakes are empty, but when it rains over the nth lake, the nth lake becomes full of water. 
+If it rains over a lake that is full of water, there will be a flood. Your goal is to avoid floods in any lake.
 
-Given an integer array rains where:
+**Given an integer array rains where**:
 
 * `rains[i] > 0` means there will be rains over the rains[i] lake.
 * `rains[i] == 0` means there are no rains this day and you can choose one lake this day and dry it.
