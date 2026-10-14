@@ -12,7 +12,7 @@ First, I calcualte the position based on fixed moves:
 * If I see `R`, I increase the position by 1
 
 For `_`, I count how many such moves I have using a `blanks` variable.
-I do this because later I can decide their direction to maximize the distance from the origin.
+I do this because later I can decide their direction to maximize the distance from the `origin`.
 
 After processing all moves, I already know the current position from `L` and `R`.
 
